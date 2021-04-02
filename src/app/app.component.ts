@@ -13,13 +13,8 @@ export class AppComponent implements OnInit  {
   constructor() { }
 
   ngOnInit(): void {
-    this.employeeForm = new FormGroup({
-      fullName: new FormControl(),
-      email: new FormControl()
-    })
+   
   }
 
-  onSubmit(): void {
-    console.log(this.employeeForm.value);
-  }
+
 }
